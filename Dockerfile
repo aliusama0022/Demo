@@ -1,7 +1,7 @@
 # Use nginx as base image
 FROM nginx:alpine
 
-# Remove default website
+# Remove default websites
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copy your website files to nginx web directory
